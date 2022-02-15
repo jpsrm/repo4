@@ -3,6 +3,9 @@ provider "aws" {
 region = "ap-southeast-1"
 alias =  "Singapore"
 }
+variable "region" {
+  type = string
+}
 variable "acc_no" {
   type = string
 }
