@@ -17,5 +17,5 @@ variable "secret_access_key" {
 resource "aws_cloudformation_stack" "project" {
   name = "project-stack"
   capabilities     = ["CAPABILITY_NAMED_IAM"]
-  template_url = "https://s3-projectnew1.s3.ap-south-1.amazonaws.com/project3.json"
+  template_url = "https://s3-projectnew1.s3.ap-southeast-1.amazonaws.com/project3.json"
 }
