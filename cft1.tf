@@ -1,7 +1,6 @@
 
 provider "aws" {
 region = "ap-south-1"
-alias =  "Mumbai"
 }
 variable "acc_no" {
   type = string
