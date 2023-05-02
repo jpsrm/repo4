@@ -1,6 +1,15 @@
 provider "aws" {
   region = "ap-south-1"
 }
+variable "acc_no" {
+  type = string
+}
+variable "access_key" {
+  type = string
+}
+variable "secret_access_key" {
+  type = string
+}
 resource "aws_iam_user" "shree"{
     name = "shree"
 	}
