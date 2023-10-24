@@ -12,7 +12,7 @@ variable "secret_access_key" {
   type = string
 }
 resource "aws_iam_user" "shree"{
-    name = "shree"
+    name = "sowmi"
 	}
 resource "aws_cloudformation_stack" "project" {
   name = "project-stack"
